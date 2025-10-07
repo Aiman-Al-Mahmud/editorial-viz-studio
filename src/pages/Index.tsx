@@ -6,11 +6,12 @@ import Footer from "@/components/Footer";
 
 // 🌍 World Images
 import worldImage1 from "@/assets/world-network.jpg";
-import worldImage2 from "@/assets/global-trade.jpg";
-import worldImage3 from "@/assets/united-nations.jpg";
+import worldImage2 from "@/assets/united-nations.jpg";
+import worldImage3 from "@/assets/global-trade.jpg";
+
 
 // 💼 Business Images
-import businessImage1 from "@/assets/business-meeting.jpg";
+import businessImage1 from "@/assets/Stock_market (1).jpeg";
 import businessImage2 from "@/assets/startup-team.jpg";
 import businessImage3 from "@/assets/global-supplychain.jpg";
 
@@ -20,7 +21,7 @@ import techImage2 from "@/assets/quantum-lab.jpg";
 import techImage3 from "@/assets/cybersecurity.jpg";
 
 // 🏆 Sports Images
-import sportsImage1 from "@/assets/sports-action.jpg";
+import sportsImage1 from "@/assets/Sports.jpeg";
 import sportsImage2 from "@/assets/football-victory.jpg";
 import sportsImage3 from "@/assets/olympic-runner.jpg";
 
