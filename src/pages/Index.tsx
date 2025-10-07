@@ -11,7 +11,7 @@ import worldImage3 from "@/assets/global-trade.jpg";
 
 
 // 💼 Business Images
-import businessImage1 from "@/assets/Stock_market (1).jpeg";
+import businessImage1 from "@/assets/stock-market.jpeg";
 import businessImage2 from "@/assets/startup-team.jpg";
 import businessImage3 from "@/assets/global-supplychain.jpg";
 
