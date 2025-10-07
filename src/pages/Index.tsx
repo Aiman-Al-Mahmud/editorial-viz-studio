@@ -4,17 +4,40 @@ import CategorySection from "@/components/CategorySection";
 import Sidebar from "@/components/Sidebar";
 import Footer from "@/components/Footer";
 
-import businessImage from "@/assets/business-meeting.jpg";
-import techImage from "@/assets/tech-innovation.jpg";
-import sportsImage from "@/assets/sports-action.jpg";
-import lifestyleImage from "@/assets/lifestyle-wellness.jpg";
-import politicsImage from "@/assets/politics-gov.jpg";
-import worldImage from "@/assets/world-network.jpg";
+// 🌍 World Images
+import worldImage1 from "@/assets/world-network.jpg";
+import worldImage2 from "@/assets/global-trade.jpg";
+import worldImage3 from "@/assets/united-nations.jpg";
+
+// 💼 Business Images
+import businessImage1 from "@/assets/business-meeting.jpg";
+import businessImage2 from "@/assets/startup-team.jpg";
+import businessImage3 from "@/assets/global-supplychain.jpg";
+
+// 💻 Tech Images
+import techImage1 from "@/assets/tech-innovation.jpg";
+import techImage2 from "@/assets/quantum-lab.jpg";
+import techImage3 from "@/assets/cybersecurity.jpg";
+
+// 🏆 Sports Images
+import sportsImage1 from "@/assets/sports-action.jpg";
+import sportsImage2 from "@/assets/football-victory.jpg";
+import sportsImage3 from "@/assets/olympic-runner.jpg";
+
+// 🌿 Lifestyle Images
+import lifestyleImage1 from "@/assets/lifestyle-wellness.jpg";
+import lifestyleImage2 from "@/assets/sustainable-living.jpg";
+import lifestyleImage3 from "@/assets/farm-to-table.jpg";
+
+// 🏛️ Politics Images
+import politicsImage1 from "@/assets/politics-gov.jpg";
+import politicsImage2 from "@/assets/election-reform.jpg";
+import politicsImage3 from "@/assets/global-summit.jpg";
 
 const Index = () => {
   const worldArticles = [
     {
-      image: worldImage,
+      image: worldImage1,
       category: "World",
       title: "UN Security Council Reaches Landmark Agreement on Peacekeeping",
       excerpt: "After months of negotiations, member states approve comprehensive reform package aimed at strengthening international peacekeeping operations.",
@@ -23,7 +46,7 @@ const Index = () => {
       readTime: "6 min read",
     },
     {
-      image: politicsImage,
+      image: worldImage2,
       category: "World",
       title: "European Union Announces New Digital Privacy Framework",
       excerpt: "Sweeping legislation aims to protect citizen data while fostering innovation in the digital economy across member states.",
@@ -32,7 +55,7 @@ const Index = () => {
       readTime: "5 min read",
     },
     {
-      image: worldImage,
+      image: worldImage3,
       category: "World",
       title: "Historic Trade Agreement Signed Between Pacific Nations",
       excerpt: "Regional partnership promises to boost economic cooperation and reduce trade barriers across Asia-Pacific region.",
@@ -44,7 +67,7 @@ const Index = () => {
 
   const businessArticles = [
     {
-      image: businessImage,
+      image: businessImage1,
       category: "Business",
       title: "Stock Markets Surge on Strong Corporate Earnings Reports",
       excerpt: "Major indices reach new highs as tech giants report better-than-expected quarterly results, boosting investor confidence.",
@@ -53,7 +76,7 @@ const Index = () => {
       readTime: "4 min read",
     },
     {
-      image: businessImage,
+      image: businessImage2,
       category: "Business",
       title: "Startup Revolution: How Small Companies Are Disrupting Industries",
       excerpt: "Young entrepreneurs leverage technology and innovative business models to challenge established market leaders.",
@@ -62,7 +85,7 @@ const Index = () => {
       readTime: "8 min read",
     },
     {
-      image: businessImage,
+      image: businessImage3,
       category: "Business",
       title: "Global Supply Chains Adapt to New Economic Realities",
       excerpt: "Companies implement resilient strategies to navigate changing international trade landscape and reduce vulnerabilities.",
@@ -74,7 +97,7 @@ const Index = () => {
 
   const techArticles = [
     {
-      image: techImage,
+      image: techImage1,
       category: "Technology",
       title: "AI Breakthrough Promises Revolutionary Medical Diagnostics",
       excerpt: "New machine learning algorithm demonstrates unprecedented accuracy in early disease detection, potentially saving millions of lives.",
@@ -83,7 +106,7 @@ const Index = () => {
       readTime: "7 min read",
     },
     {
-      image: techImage,
+      image: techImage2,
       category: "Technology",
       title: "Quantum Computing Reaches Major Milestone in Development",
       excerpt: "Researchers achieve stable quantum state for record duration, bringing practical quantum computers closer to reality.",
@@ -92,7 +115,7 @@ const Index = () => {
       readTime: "9 min read",
     },
     {
-      image: techImage,
+      image: techImage3,
       category: "Technology",
       title: "Cybersecurity Experts Warn of Emerging Threats in Cloud Computing",
       excerpt: "As businesses migrate to cloud infrastructure, new vulnerabilities emerge requiring innovative security solutions.",
@@ -104,7 +127,7 @@ const Index = () => {
 
   const sportsArticles = [
     {
-      image: sportsImage,
+      image: sportsImage1,
       category: "Sports",
       title: "Olympic Champion Sets New World Record in Dramatic Finale",
       excerpt: "Athletes deliver stunning performances at international championships, rewriting record books and inspiring new generation.",
@@ -113,7 +136,7 @@ const Index = () => {
       readTime: "4 min read",
     },
     {
-      image: sportsImage,
+      image: sportsImage2,
       category: "Sports",
       title: "Underdog Team Stuns Champions in Historic Upset Victory",
       excerpt: "In one of the greatest sports upsets, lower-ranked team defeats defending champions in thrilling championship match.",
@@ -122,7 +145,7 @@ const Index = () => {
       readTime: "6 min read",
     },
     {
-      image: sportsImage,
+      image: sportsImage3,
       category: "Sports",
       title: "Major League Announces Expansion and New Sustainability Initiatives",
       excerpt: "Sports organization commits to carbon neutrality while expanding global reach with new franchise locations.",
@@ -134,7 +157,7 @@ const Index = () => {
 
   const lifestyleArticles = [
     {
-      image: lifestyleImage,
+      image: lifestyleImage1,
       category: "Lifestyle",
       title: "Wellness Trends: How Mindfulness is Transforming Modern Living",
       excerpt: "Growing movement towards conscious living reshapes how people approach work-life balance and mental health.",
@@ -143,7 +166,7 @@ const Index = () => {
       readTime: "8 min read",
     },
     {
-      image: lifestyleImage,
+      image: lifestyleImage2,
       category: "Lifestyle",
       title: "Sustainable Living: Small Changes Making Big Environmental Impact",
       excerpt: "Eco-conscious consumers adopt practical habits that reduce carbon footprint while maintaining quality of life.",
@@ -152,7 +175,7 @@ const Index = () => {
       readTime: "7 min read",
     },
     {
-      image: lifestyleImage,
+      image: lifestyleImage3,
       category: "Lifestyle",
       title: "Culinary Innovation: Farm-to-Table Movement Goes Mainstream",
       excerpt: "Chefs and consumers embrace locally-sourced ingredients, supporting sustainable agriculture and community economy.",
@@ -164,7 +187,7 @@ const Index = () => {
 
   const politicsArticles = [
     {
-      image: politicsImage,
+      image: politicsImage1,
       category: "Politics",
       title: "Bipartisan Coalition Announces Landmark Infrastructure Initiative",
       excerpt: "Political rivals unite behind ambitious plan to modernize national infrastructure and create jobs across regions.",
@@ -173,7 +196,7 @@ const Index = () => {
       readTime: "9 min read",
     },
     {
-      image: politicsImage,
+      image: politicsImage2,
       category: "Politics",
       title: "Electoral Reform Debate Intensifies Ahead of Major Elections",
       excerpt: "Lawmakers discuss voting system modernization as citizens demand greater transparency and accessibility.",
@@ -182,7 +205,7 @@ const Index = () => {
       readTime: "7 min read",
     },
     {
-      image: politicsImage,
+      image: politicsImage3,
       category: "Politics",
       title: "International Summit Addresses Global Security Challenges",
       excerpt: "World leaders collaborate on strategies to combat terrorism, cyber threats, and promote international stability.",
